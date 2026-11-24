@@ -128,10 +128,10 @@ h3{font-size:22px;font-weight:700;font-stretch:110%;line-height:1.2}
 .stat{padding:30px 28px;border-right:1px solid var(--line);position:relative}
 .stat:last-child{border-right:0}
 .stat b{display:block;font-size:52px;font-weight:900;font-stretch:125%;line-height:1}
-.stat span{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block;margin-top:10px}
+.stat>span{font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);display:block;margin-top:10px}
 .stat::after{content:"";position:absolute;left:28px;top:0;width:36px;height:3px;border-radius:0 0 3px 3px;background:currentColor}
 .stat.g{color:var(--green)}.stat.c{color:var(--cyan)}.stat.a{color:var(--amber)}.stat.w{color:#C9A7FF}
-.stat span{color:var(--muted)}
+.stat>span{color:var(--muted)}
 
 /* about */
 .about{display:grid;grid-template-columns:1.25fr .75fr;gap:40px;align-items:start}
