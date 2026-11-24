@@ -86,8 +86,8 @@ h3{font-size:22px;font-weight:700;font-stretch:110%;line-height:1.2}
 
 /* hero */
 .hero{min-height:100vh;display:flex;align-items:center;padding:120px 0 70px}
-.hero-grid{display:grid;grid-template-columns:1.12fr .88fr;gap:60px;align-items:center}
-.hero h1{font-size:clamp(52px,8.4vw,112px);font-weight:900;margin:14px 0 26px}
+.hero-grid{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:56px;align-items:center}
+.hero h1{font-size:clamp(44px,6.2vw,88px);font-weight:900;margin:14px 0 26px}
 .hero h1 em{font-style:normal;display:block}
 .pills{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:26px}
 .pill{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:9px 14px;border-radius:999px;border:1px solid;display:inline-flex;align-items:center;gap:8px}
@@ -104,7 +104,7 @@ h3{font-size:22px;font-weight:700;font-stretch:110%;line-height:1.2}
 .dot{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(61,255,162,.7);animation:pulse 2s infinite}
 @keyframes pulse{70%{box-shadow:0 0 0 10px rgba(61,255,162,0)}100%{box-shadow:0 0 0 0 rgba(61,255,162,0)}}
 
-.photo-wrap{position:relative;max-width:440px;margin-left:auto}
+.photo-wrap{position:relative;width:100%;max-width:420px;margin-left:auto}
 .win{border:1px solid var(--line2);border-radius:18px;background:var(--card);overflow:hidden;box-shadow:0 30px 80px rgba(0,0,0,.5),0 0 0 1px rgba(61,255,162,.06)}
 .win-bar{display:flex;align-items:center;gap:8px;padding:12px 16px;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:12px;color:var(--muted)}
 .win-bar i{width:11px;height:11px;border-radius:50%;display:inline-block}
@@ -391,10 +391,10 @@ footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
 <!-- STATS -->
 <div class="wrap rv">
   <div class="stats">
-    <div class="stat g"><b data-to="6">6</b>+<span>Years in SEO &amp; digital marketing</span></div>
-    <div class="stat c"><b data-to="7">7</b><span>Industries served</span></div>
-    <div class="stat a"><b data-to="13">13</b>+<span>Websites managed at once</span></div>
-    <div class="stat w"><b data-to="7">7</b><span>Client testimonials</span></div>
+    <div class="stat g"><b><span data-to="6">6</span>+</b><span>Years in SEO &amp; digital marketing</span></div>
+    <div class="stat c"><b><span data-to="7">7</span></b><span>Industries served</span></div>
+    <div class="stat a"><b><span data-to="13">13</span>+</b><span>Websites managed at once</span></div>
+    <div class="stat w"><b><span data-to="7">7</span></b><span>Client testimonials</span></div>
   </div>
 </div>
 
